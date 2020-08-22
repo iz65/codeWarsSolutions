@@ -9,7 +9,7 @@
 //
 //If v1 >= v2 then return nil, nothing, null, None or {-1, -1, -1} for C++, C, Go, Nim, [] for Kotlin or "-1 -1 -1".
 
- function race(v1, v2, g) {
+function race(v1, v2, g) {
   if (v2 <= v1) {
     return null;
   }
