@@ -9,9 +9,11 @@ Example:
 
 { 6, 2, 1, 8, 10 } => 16
 { 1, 1, 11, 2, 3 } => 6
-
 If array is empty, null or None, or if only 1 Element exists, return 0.
 Note:In C++ instead null an empty vector is used. In C there is no null. ;-)
+
+
+
 function sumArray(arr) {
     if (arr === null || arr.length === 1) return 0;
  let min = Math.min(...arr);
