@@ -25,4 +25,9 @@ let result = [];
     }
   }
   return result;
+
+
+//SHORT:
+function solve(arr){
+return arr.filter((el, i) => arr.slice(i+1).every(x => x < el));
 };
